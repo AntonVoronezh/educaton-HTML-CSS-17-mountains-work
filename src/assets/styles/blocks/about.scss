@@ -3,7 +3,11 @@
     display: flex;
 
 
-
+    &__title {
+        display: flex;
+        justify-content: center;
+        min-width: 50%; // border: 1px solid #000000;
+    }
     &__back {
         margin-top: -75px; // border: 1px solid #000000;
         position: relative; // z-index: 10;
