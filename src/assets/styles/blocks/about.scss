@@ -4,7 +4,13 @@
     display: flex;
     flex-direction: column;
     position: relative;
-
+    &__top {
+        // height: 500px; // border: 1px solid #000000;
+    }
+    &__bottom {
+        position: relative; // height: 500px;
+        // border: 1px solid #000000;
+    }
 }
 
 .about {
