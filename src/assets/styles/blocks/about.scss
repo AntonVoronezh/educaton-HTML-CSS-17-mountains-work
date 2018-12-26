@@ -2,7 +2,13 @@
 
 .contact {
 
-
+    &__img {
+        max-height: 20px;
+        max-width: 30px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        fill: $green; // border: 1px solid #000000;
+    }
     &__link {
         color: #455a64;
         font-family: Roboto;
