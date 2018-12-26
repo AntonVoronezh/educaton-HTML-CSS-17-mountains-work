@@ -14,7 +14,15 @@
     justify-content: center;
     align-items: center;
     font-style: normal;
-
+    &__list {
+        display: flex;
+        flex-direction: column; // border: 1px solid #000000;
+    }
+    &__item {
+        // border: 1px solid #000000;
+        display: flex;
+        justify-content: flex-start;
+    }
     &__img {
         max-height: 20px;
         max-width: 30px;
