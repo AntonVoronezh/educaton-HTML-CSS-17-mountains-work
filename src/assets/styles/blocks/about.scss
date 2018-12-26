@@ -1,4 +1,19 @@
 
+.about {
+    display: flex;
+
+
+
+
+    } // &-title {
+    //     position: absolute;
+    //     z-index: 11;
+    //     opacity: 1;
+
+    &__content {
+        margin-bottom: 10px;
+    }
+}
 
 .map {
     height: 1075px;
