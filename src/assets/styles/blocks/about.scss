@@ -2,7 +2,11 @@
 .about {
     display: flex;
 
-
+    &__triangles {
+        width: 100%;
+        margin-top: -150px;
+        position: relative; // border: 1px solid #000000;
+    }
     &__wrap {
         padding-left: 20px;
         padding-right: 20px; // border: 1px solid red;
