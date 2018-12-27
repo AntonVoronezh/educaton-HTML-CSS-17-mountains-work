@@ -10,7 +10,10 @@
     &--welcome {
         width: 180px;
         height: 45px;
-  
+        &:hover {
+            background-color: $white;
+            color: $green;
+        }
 
    
     }
