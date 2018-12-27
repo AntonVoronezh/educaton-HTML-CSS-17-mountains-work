@@ -18,7 +18,11 @@
             background-color: $white;
             color: $green;
         }
-   
+        &:active {
+            background-color: darken($white, 20%);
+            color: darken($green, 10%);
+            text-decoration: underline;
+        }
     }
 }
 
