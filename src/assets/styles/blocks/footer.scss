@@ -28,7 +28,8 @@
     }
     &__bottom {
         width: 100%; // border: 1px solid #fff; // height: 50%;
-  
+        flex: 1;
+        display: flex;
      
     }
 
