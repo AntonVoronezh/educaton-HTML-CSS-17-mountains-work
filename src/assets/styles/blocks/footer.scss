@@ -32,7 +32,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-  
+        &-left {
+            // border: 1px solid #000000;
+            width: 50%;
+        }
+       
     }
 
 }
