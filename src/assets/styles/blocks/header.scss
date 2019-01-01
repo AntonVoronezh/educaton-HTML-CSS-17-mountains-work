@@ -70,7 +70,11 @@
     &__img {
         position: relative;
         max-width: 26px;
-
+        max-height: 16px;
+        fill: $white;
+        opacity: 0.7;
+        // border: 1px solid #000000;
+        z-index: 100;
     }
 }
 
