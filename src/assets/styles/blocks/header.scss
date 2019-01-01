@@ -67,5 +67,10 @@
         display: flex;
         justify-content: center;
     }
+    &__img {
+        position: relative;
+        max-width: 26px;
 
+    }
+}
 
