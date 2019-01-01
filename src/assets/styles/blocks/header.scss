@@ -61,6 +61,11 @@
             }
         }
     }
-
+    &__bottom {
+        margin-bottom: 65px;
+        // border: 1px solid #000000;
+        display: flex;
+        justify-content: center;
+    }
 
 
