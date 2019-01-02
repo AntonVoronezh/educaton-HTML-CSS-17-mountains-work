@@ -17,7 +17,8 @@
     align-items: center;
     
     &__center-wrap{
-
+        flex-direction: column;
+        justify-content: space-between;
     }
 
 
