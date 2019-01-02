@@ -20,7 +20,10 @@
         flex-direction: column;
         justify-content: space-between;
     }
-
+    &__top {
+        align-self: flex-end;
+   
+    }
 
 
 
