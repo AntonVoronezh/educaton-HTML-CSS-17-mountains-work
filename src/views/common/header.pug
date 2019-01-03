@@ -6,6 +6,7 @@ header.header.header-wrap
           - var socials = {'vk':'http://vk.com','github':'http://github.com','in':'http://linkedin.com'}
             each value,key in socials
               a(href=`${value}` target="_blank").socials__link
+                +icon(key, 'socials__img socials__img--header svg', 'ссылка на '+ key)
               
 
    
