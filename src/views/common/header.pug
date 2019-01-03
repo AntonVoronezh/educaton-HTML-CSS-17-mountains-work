@@ -7,6 +7,7 @@ header.header.header-wrap
             each value,key in socials
               a(href=`${value}` target="_blank").socials__link
                 +icon(key, 'socials__img socials__img--header svg', 'ссылка на '+ key)
+                span.visually-hidden ссылка на #{key}
               
 
    
