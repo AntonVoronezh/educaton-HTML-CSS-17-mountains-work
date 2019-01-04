@@ -15,4 +15,5 @@ export default function moveParallax() {
       });
     };
   
+    window.addEventListener("mousemove", moveLayers);
   }
