@@ -11,6 +11,7 @@ export default function moveParallax() {
         const positionX = initialX * divider;
         const positionY = initialY * divider;
   
+        layer.style.transform = `translate(${positionX}px, ${positionY}px)`;
       });
     };
   
