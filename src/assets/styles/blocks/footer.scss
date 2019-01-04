@@ -23,7 +23,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        &-left {
+            width: 50%;
+        }
     }
 
 }
