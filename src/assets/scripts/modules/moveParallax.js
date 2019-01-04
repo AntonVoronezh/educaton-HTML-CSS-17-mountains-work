@@ -7,6 +7,7 @@ export default function moveParallax() {
       const initialY = window.innerHeight / 2 - e.pageY;
   
       layers.forEach((layer, i) => {
+        const divider = i / 50;
   
       });
     };
