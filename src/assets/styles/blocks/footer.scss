@@ -7,7 +7,7 @@
         flex-direction: column;
         align-items: center;
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 20px; 
     }
     &__top {
         width: 100%;
@@ -15,10 +15,10 @@
         border-bottom: 1px solid rgba(#ffffff, 0.2);
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; 
     }
     &__bottom {
-        width: 100%;
+        width: 100%; 
         flex: 1;
         display: flex;
         justify-content: space-between;
@@ -26,6 +26,7 @@
         &-left {
             width: 50%;
         }
+        &-right {}
     }
     &--about {
         margin-top: -150px;
