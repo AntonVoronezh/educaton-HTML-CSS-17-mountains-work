@@ -3,6 +3,7 @@ export default function moveParallax() {
     const layers = Array.from(parallaxContainer.children);
   
     const moveLayers = e => {
+      const initialX = window.innerWidth / 2 - e.pageX;
   
     };
   
