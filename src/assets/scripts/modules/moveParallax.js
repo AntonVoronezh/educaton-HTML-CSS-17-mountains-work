@@ -8,6 +8,7 @@ export default function moveParallax() {
   
       layers.forEach((layer, i) => {
         const divider = i / 50;
+        const positionX = initialX * divider;
   
       });
     };
