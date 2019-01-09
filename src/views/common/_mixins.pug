@@ -5,3 +5,4 @@ mixin icon(iconName, iconClass, iconTitle)
     //- use(xlink:href=`#${iconName}`)
 
 mixin image(imagePath, imageAlt, imageClass)
+  img(src=`/assets/images/${imagePath}`, alt=`${imageAlt}`, class=`${imageClass}`)
