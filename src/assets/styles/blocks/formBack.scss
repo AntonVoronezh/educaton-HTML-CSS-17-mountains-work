@@ -60,7 +60,11 @@
             background-color: #fff;
             border: 1px solid $green;
         }
-
+        &:hover {
+            border: 1px solid $green;
+            background-color: #fff;
+            opacity: 1;
+        }
     }
 
 }
