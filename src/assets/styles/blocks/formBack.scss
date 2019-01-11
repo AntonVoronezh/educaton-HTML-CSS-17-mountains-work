@@ -161,3 +161,16 @@
     margin-right: 10px;
 }
 
+.radio-custom,
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // margin-bottom: 20px;
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+/* .checkbox:checked + .checkbox-custom::before, */
+
