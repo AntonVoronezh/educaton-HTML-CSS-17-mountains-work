@@ -174,3 +174,27 @@
 
 /* .checkbox:checked + .checkbox-custom::before, */
 
+.radio:checked+.radio-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    background: $green;
+    border-radius: 2px;
+}
+
+.radio-custom,
+.radio:checked+.radio-custom::before {
+    border-radius: 50%;
+}
+
+// .btn--form {
+//     width: 90%;
+//     margin-left: 5%;
+//     margin-right: 5%;
+//     margin-bottom: 20px;
+//     // margin: 10px;
+// }
