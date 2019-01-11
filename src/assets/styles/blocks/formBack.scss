@@ -69,7 +69,13 @@
     &__check {
         border: none;
         text-align: center;
-
+        &-label {
+            font-size: 14px;
+            // border: 1px solid #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
 
     }
