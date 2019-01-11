@@ -31,7 +31,9 @@
         color: $grey;
         border: 1px solid $green;
         margin-bottom: 15px;
-
+        &:focus {
+            border: 1px solid $green;
+        }
 
 
     }
