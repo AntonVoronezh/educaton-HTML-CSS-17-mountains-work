@@ -56,7 +56,10 @@
         &:focus {
             border: 1px solid $green;
         }
-
+        &:active {
+            background-color: #fff;
+            border: 1px solid $green;
+        }
 
     }
 
