@@ -87,7 +87,21 @@
             align-items: center;
         }
     }
-
+    &__img {
+        fill: $green;
+// &:hover {
+//     fill: $green;
+// }
+        &-wrap {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    // &__login:hover {
+    //      &__img {
+    //         fill: $green;
+    //     }
+    // }
 }
 
 
