@@ -14,3 +14,4 @@ footer.footer.footer--about
             - var socials = {'vk':'http://vk.com','github':'http://github.com','in':'http://linkedin.com'}
               each value,key in socials
                 .socials__footer-wrap
+                  a(href=`${value}` target="_blank").socials__link.socials__link--footer
