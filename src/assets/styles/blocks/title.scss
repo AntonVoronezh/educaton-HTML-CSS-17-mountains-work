@@ -11,6 +11,14 @@
         margin-right: 15px;
         opacity: 0.2;
     }
-
+    &::after {
+        content: "";
+        display: block;
+        width: 22px;
+        height: 5px;
+        background-color: #373e42;
+        margin-left: 15px;
+        opacity: 0.2;
+    }
 
 
