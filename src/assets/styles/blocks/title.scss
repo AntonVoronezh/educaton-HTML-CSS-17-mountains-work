@@ -2,7 +2,15 @@
     font-family: 'bernier';
     display: flex;
     align-items: center;
-
+    &::before {
+        content: "";
+        display: block;
+        width: 22px;
+        height: 5px;
+        background-color: #373e42;
+        margin-right: 15px;
+        opacity: 0.2;
+    }
 
 
 
